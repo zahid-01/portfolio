@@ -1,0 +1,28 @@
+.text {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(4, 39, 41);
+  height: 100vh;
+  width: 300px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.list div {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  font-family: cursive;
+}
+
+.list div:hover {
+  text-decoration: underline;
+}

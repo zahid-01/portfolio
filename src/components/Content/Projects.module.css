@@ -1,0 +1,16 @@
+.main-section {
+  border-radius: 10px;
+  display: flex;
+  /* background-image: linear-gradient(to bottom right, teal, skyblue, indigo); */
+  background-color: #02153d;
+
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+.main-section p {
+  text-align: center;
+  color: white;
+  margin: auto;
+  font-size: 100px;
+}

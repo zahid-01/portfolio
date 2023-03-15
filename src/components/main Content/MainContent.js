@@ -4,14 +4,14 @@ import Projects from "../Content/Projects";
 import Contact from "../Content/Contact";
 
 const MainContent = (props) => {
-  switch (props.data) {
-    case "AboutMe":
+  switch (props.page) {
+    case "me":
       return <AboutMe />;
-    case "MyEducation":
+    case "edu":
       return <MyEducation />;
-    case "Projects":
+    case "prj":
       return <Projects />;
-    case "Contact":
+    case "cont":
       return <Contact />;
     default:
       return <AboutMe />;

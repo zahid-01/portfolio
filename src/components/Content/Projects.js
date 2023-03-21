@@ -1,10 +1,11 @@
-import Class from "./Projects.module.css";
+// import Class from "./Projects.module.css";
+import Layout from "../../UI/Layout";
 
 const Projects = () => {
   return (
-    <div className={Class["main-section"]}>
+    <Layout>
       <p>This These are my projects</p>
-    </div>
+    </Layout>
   );
 };
 

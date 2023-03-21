@@ -1,10 +1,11 @@
-import Class from "./Contact.module.css";
+// import Class from "./Contact.module.css";
+import Layout from "../../UI/Layout";
 
 const Contact = () => {
   return (
-    <div className={Class["main-section"]}>
+    <Layout>
       <p>Contact me</p>
-    </div>
+    </Layout>
   );
 };
 

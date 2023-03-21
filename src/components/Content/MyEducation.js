@@ -1,10 +1,11 @@
-import Styles from "./MyEducation.module.css";
+// import Styles from "./MyEducation.module.css";
+import Layout from "../../UI/Layout";
 
 const MyEducation = () => {
   return (
-    <div className={Styles["main-section"]}>
+    <Layout>
       <p>This is my Education</p>
-    </div>
+    </Layout>
   );
 };
 

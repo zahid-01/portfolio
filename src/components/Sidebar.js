@@ -14,22 +14,22 @@ const Sidebar = (props) => {
 
   return (
     <div className={Class.text}>
-      <div className={Class.list}>
+      <div className={`${Class.list} ${Class["fa-icon"]}`}>
         <div data-id="me" onClick={showContent}>
-          <FontAwesomeIcon className={Class["fa-icon"]} icon={faUserSecret} />
+          <FontAwesomeIcon icon={faUserSecret} />
           About Me
         </div>
         <div data-id="edu" onClick={showContent}>
-          <FontAwesomeIcon className={Class["fa-icon"]} icon={faBrain} />
+          <FontAwesomeIcon icon={faBrain} />
           My Education
         </div>
         <div data-id="prj" onClick={showContent}>
-          <FontAwesomeIcon className={Class["fa-icon"]} icon={faCodeBranch} />
+          <FontAwesomeIcon icon={faCodeBranch} />
           Projects
         </div>
 
         <div data-id="cont" onClick={showContent}>
-          <FontAwesomeIcon className={Class["fa-icon"]} icon={faCoffee} />
+          <FontAwesomeIcon icon={faCoffee} />
           Contact
         </div>
       </div>

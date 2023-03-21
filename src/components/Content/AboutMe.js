@@ -1,8 +1,9 @@
-import Styles from "./AboutMe.module.css";
+// import Styles from "./AboutMe.module.css";
+import Layout from "../../UI/Layout";
 
 const AboutMe = () => {
   return (
-    <div className={Styles["main-section"]}>
+    <Layout>
       <p>This is me</p>
       <p>
         In this article, we will know how to make a sticky element that will
@@ -18,7 +19,7 @@ const AboutMe = () => {
         from the top of the viewport. Example: This example illustrates the use
         of the position property to stick to the top of the element.
       </p>
-    </div>
+    </Layout>
   );
 };
 

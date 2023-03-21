@@ -1,0 +1,35 @@
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: larger;
+  font-weight: bold;
+  width: 80%;
+  height: 80%;
+  gap: 20px;
+}
+
+.profile {
+  background-color: aqua;
+}
+
+.profile img {
+  height: 250px;
+  width: 250px;
+}
+
+.me {
+  background-color: blue;
+}
+
+.education {
+  grid-column: 1 / span 2;
+  background-color: yellow;
+}
+
+.frontend {
+  background-color: violet;
+}
+
+.backend {
+  background-color: tomato;
+}
